@@ -1,0 +1,4546 @@
+[{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc8d"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 0,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc8e"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc8f"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc90"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc91"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc92"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc93"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8866666667,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc94"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.82
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc95"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc96"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8466666667,
+  "out_of_sample_performance": 0.895
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc97"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc98"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.92,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc99"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.815
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc9a"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc9b"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9466666667,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc9c"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc9d"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc9e"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fc9f"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8933333333,
+  "out_of_sample_performance": 0.815
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fca0"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.82
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fca1"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fca2"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fca3"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.9066666667,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fca4"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fca5"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8133333333,
+  "out_of_sample_performance": 0.805
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fca6"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8333333333,
+  "out_of_sample_performance": 0.84
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fca7"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8366666667,
+  "out_of_sample_performance": 0.81
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fca8"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9133333333,
+  "out_of_sample_performance": 0.81
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fca9"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9933333333,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcaa"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.9
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcab"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.96,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcac"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcad"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcae"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8533333333,
+  "out_of_sample_performance": 0.825
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcaf"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcb0"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9133333333,
+  "out_of_sample_performance": 0.89
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcb1"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.7933333333,
+  "out_of_sample_performance": 0.87
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcb2"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.84,
+  "out_of_sample_performance": 0.825
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcb3"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.82,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcb4"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.92,
+  "out_of_sample_performance": 0.81
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcb5"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcb6"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8666666667,
+  "out_of_sample_performance": 0.835
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcb7"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcb8"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9,
+  "out_of_sample_performance": 0.88
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcb9"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.8966666667,
+  "out_of_sample_performance": 0.84
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcba"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.91,
+  "out_of_sample_performance": 0.84
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcbb"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9066666667,
+  "out_of_sample_performance": 0.89
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcbc"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9444444444,
+  "out_of_sample_performance": 0.81
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcbd"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.8
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcbe"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.84
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcbf"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9533333333,
+  "out_of_sample_performance": 0.815
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcc0"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.83
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcc1"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.87
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcc2"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcc3"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9533333333,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcc4"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.885
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcc5"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9066666667,
+  "out_of_sample_performance": 0.815
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcc6"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9133333333,
+  "out_of_sample_performance": 0.81
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcc7"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9066666667,
+  "out_of_sample_performance": 0.78
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcc8"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9444444444,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcc9"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcca"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.88
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fccb"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9688888889,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fccc"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.885
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fccd"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcce"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fccf"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8666666667,
+  "out_of_sample_performance": 0.765
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcd0"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcd1"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcd2"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcd3"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8933333333,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcd4"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcd5"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8266666667,
+  "out_of_sample_performance": 0.765
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcd6"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8466666667,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcd7"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8566666667,
+  "out_of_sample_performance": 0.79
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcd8"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.93,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcd9"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcda"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcdb"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9433333333,
+  "out_of_sample_performance": 0.83
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcdc"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.835
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcdd"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcde"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcdf"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.9066666667,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fce0"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9933333333,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fce1"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fce2"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 0,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fce3"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.9066666667,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fce4"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.885
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fce5"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.84,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fce6"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8666666667,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fce7"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8566666667,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fce8"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.93,
+  "out_of_sample_performance": 0.87
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fce9"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.875
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcea"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.875
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fceb"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.94,
+  "out_of_sample_performance": 0.88
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcec"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.875
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fced"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8066666667,
+  "out_of_sample_performance": 0.77
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcee"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8533333333,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcef"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.85,
+  "out_of_sample_performance": 0.83
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcf0"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9266666667,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcf1"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8133333333,
+  "out_of_sample_performance": 0.875
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcf2"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8466666667,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcf3"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8366666667,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcf4"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.92,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcf5"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8133333333,
+  "out_of_sample_performance": 0.8
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcf6"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.83,
+  "out_of_sample_performance": 0.835
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcf7"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.84,
+  "out_of_sample_performance": 0.77
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcf8"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9,
+  "out_of_sample_performance": 0.815
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcf9"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9033333333,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcfa"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9166666667,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcfb"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.8977777778,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcfc"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9422222222,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcfd"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcfe"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fcff"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9566666667,
+  "out_of_sample_performance": 0.875
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd00"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.875
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd01"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd02"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.87
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd03"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.94,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd04"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.87
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd05"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.91,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd06"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9166666667,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd07"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9088888889,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd08"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9488888889,
+  "out_of_sample_performance": 0.88
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd09"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9966666667,
+  "out_of_sample_performance": 0.87
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd0a"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9966666667,
+  "out_of_sample_performance": 0.89
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd0b"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9666666667,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd0c"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 0,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.88
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd0d"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd0e"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8866666667,
+  "out_of_sample_performance": 0.815
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd0f"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd10"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9533333333,
+  "out_of_sample_performance": 0.82
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd11"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8466666667,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd12"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8933333333,
+  "out_of_sample_performance": 0.895
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd13"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.86,
+  "out_of_sample_performance": 0.84
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd14"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9466666667,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd15"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd16"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8666666667,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd17"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd18"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9066666667,
+  "out_of_sample_performance": 0.87
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd19"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9366666667,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd1a"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9566666667,
+  "out_of_sample_performance": 0.9
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd1b"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9222222222,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd1c"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9711111111,
+  "out_of_sample_performance": 0.825
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd1d"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.84,
+  "out_of_sample_performance": 0.79
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd1e"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.9,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd1f"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8666666667,
+  "out_of_sample_performance": 0.8
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd20"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.94,
+  "out_of_sample_performance": 0.825
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd21"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.88,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd22"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8866666667,
+  "out_of_sample_performance": 0.88
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd23"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.91,
+  "out_of_sample_performance": 0.83
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd24"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.94,
+  "out_of_sample_performance": 0.88
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd25"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8233333333,
+  "out_of_sample_performance": 0.83
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd26"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8533333333,
+  "out_of_sample_performance": 0.83
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd27"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.84,
+  "out_of_sample_performance": 0.805
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd28"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9066666667,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd29"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.93,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd2a"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9466666667,
+  "out_of_sample_performance": 0.875
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd2b"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9266666667,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd2c"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9666666667,
+  "out_of_sample_performance": 0.83
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd2d"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd2e"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8666666667,
+  "out_of_sample_performance": 0.84
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd2f"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd30"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9155555556,
+  "out_of_sample_performance": 0.895
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd31"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8533333333,
+  "out_of_sample_performance": 0.88
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd32"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8733333333,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd33"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8555555556,
+  "out_of_sample_performance": 0.89
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd34"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9244444444,
+  "out_of_sample_performance": 0.875
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd35"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd36"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 0,
+  "test_performance": 0.8644444444,
+  "out_of_sample_performance": 0.89
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd37"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 0,
+  "testing_valid": 1,
+  "has_overlap": 0
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd38"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9,
+  "out_of_sample_performance": 0.875
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd39"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.8955555556,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd3a"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9111111111,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd3b"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9016666667,
+  "out_of_sample_performance": 0.835
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd3c"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9383333333,
+  "out_of_sample_performance": 0.84
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd3d"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9166666667,
+  "out_of_sample_performance": 0.81
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd3e"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9466666667,
+  "out_of_sample_performance": 0.805
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd3f"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9244444444,
+  "out_of_sample_performance": 0.815
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd40"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9622222222,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd41"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.93,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd42"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9433333333,
+  "out_of_sample_performance": 0.87
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd43"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9311111111,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd44"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9688888889,
+  "out_of_sample_performance": 0.895
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd45"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.8933333333,
+  "out_of_sample_performance": 0.8
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd46"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9044444444,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd47"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.88,
+  "out_of_sample_performance": 0.8
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd48"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9266666667,
+  "out_of_sample_performance": 0.825
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd49"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9533333333,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd4a"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9622222222,
+  "out_of_sample_performance": 0.875
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd4b"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9483333333,
+  "out_of_sample_performance": 0.88
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd4c"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 0,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9683333333,
+  "out_of_sample_performance": 0.87
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd4d"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.765
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd4e"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd4f"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9366666667,
+  "out_of_sample_performance": 0.81
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd50"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd51"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd52"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd53"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9333333333,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd54"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9966666667,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd55"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9166666667,
+  "out_of_sample_performance": 0.78
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd56"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9266666667,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd57"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.8911111111,
+  "out_of_sample_performance": 0.775
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd58"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9511111111,
+  "out_of_sample_performance": 0.83
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd59"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9966666667,
+  "out_of_sample_performance": 0.84
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd5a"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd5b"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9577777778,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd5c"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd5d"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd5e"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd5f"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9466666667,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd60"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.88
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd61"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.87
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd62"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.89
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd63"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9366666667,
+  "out_of_sample_performance": 0.88
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd64"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.875
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd65"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9033333333,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd66"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.91,
+  "out_of_sample_performance": 0.87
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd67"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd68"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9422222222,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd69"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.87
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd6a"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9966666667,
+  "out_of_sample_performance": 0.895
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd6b"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.96,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd6c"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 0,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9977777778,
+  "out_of_sample_performance": 0.885
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd6d"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.91,
+  "out_of_sample_performance": 0.785
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd6e"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9366666667,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd6f"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.8955555556,
+  "out_of_sample_performance": 0.77
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd70"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9444444444,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd71"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.8966666667,
+  "out_of_sample_performance": 0.835
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd72"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9166666667,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd73"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.8977777778,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd74"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9466666667,
+  "out_of_sample_performance": 0.855
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd75"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.8777777778,
+  "out_of_sample_performance": 0.78
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd76"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.8888888889,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd77"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.885,
+  "out_of_sample_performance": 0.77
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd78"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9233333333,
+  "out_of_sample_performance": 0.84
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd79"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.94,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd7a"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9466666667,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd7b"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9233333333,
+  "out_of_sample_performance": 0.84
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd7c"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 0,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9566666667,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd7d"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd7e"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.88
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd7f"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9577777778,
+  "out_of_sample_performance": 0.845
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd80"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd81"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd82"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.885
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd83"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9622222222,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd84"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 0,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.88
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd85"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9466666667,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd86"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9466666667,
+  "out_of_sample_performance": 0.865
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd87"
+  },
+  "training_1": 0,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9316666667,
+  "out_of_sample_performance": 0.85
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd88"
+  },
+  "training_1": 1,
+  "training_2": 0,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9633333333,
+  "out_of_sample_performance": 0.875
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd89"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9977777778,
+  "out_of_sample_performance": 0.86
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd8a"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 0,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.9977777778,
+  "out_of_sample_performance": 0.875
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd8b"
+  },
+  "training_1": 0,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 0.98,
+  "out_of_sample_performance": 0.875
+},
+{
+  "_id": {
+    "$oid": "679bd77ff6e602575534fd8c"
+  },
+  "training_1": 1,
+  "training_2": 1,
+  "training_3": 1,
+  "training_4": 1,
+  "testing_1": 1,
+  "testing_2": 1,
+  "testing_3": 1,
+  "testing_4": 1,
+  "training_valid": 1,
+  "testing_valid": 1,
+  "has_overlap": 1,
+  "test_performance": 1,
+  "out_of_sample_performance": 0.89
+}]
