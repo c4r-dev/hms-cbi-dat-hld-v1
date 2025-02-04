@@ -14,6 +14,9 @@ export default function Home() {
   const [loading, setLoading] = useState(false);
   const [testPerformance, setTestPerformance] = useState(null);
   const [predictedPerformance, setPredictedPerformance] = useState(50);
+  const [runCount, setRunCount] = useState(0);
+  const [showPredictModel, setShowPredictModel] = useState(false);
+  const [showSlider, setShowSlider] = useState(false);
 
   const handleChange = (dataset, type) => {
     setDatasets((prev) => ({
@@ -27,6 +30,11 @@ export default function Home() {
 
   const handleRunModel = async () => {
     setLoading(true);
+    setRunCount((prev) => prev + 1);
+
+    if (runCount + 1 >= 2) {
+      setShowPredictModel(true); // Show "Predict Model" after 2 clicks
+    }
 
     try {
       const response = await fetch("/datahold.json");
@@ -50,10 +58,10 @@ export default function Home() {
       if (matchedObject?.test_performance !== undefined) {
         const testPerf = (matchedObject.test_performance * 100).toFixed(2);
         setTestPerformance(`${testPerf}%`);
-        setPredictedPerformance(parseFloat(testPerf)); // Set slider default to test_performance
+        setPredictedPerformance(parseFloat(testPerf));
       } else {
         setTestPerformance("No results found");
-        setPredictedPerformance(50); // Default slider if no data found
+        setPredictedPerformance(50);
       }
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -64,6 +72,10 @@ export default function Home() {
     setTimeout(() => {
       setLoading(false);
     }, 2000);
+  };
+
+  const handlePredictModel = () => {
+    setShowSlider(true);
   };
 
   const isButtonDisabled = () => {
@@ -120,11 +132,16 @@ export default function Home() {
         </Box>
       </Box>
 
-      {/* Run Model Button - Centered */}
-      <Box sx={{ display: "flex", justifyContent: "center", mt: 3 }}>
+      {/* Run Model & Predict Model Buttons */}
+      <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 2, mt: 3 }}>
         <Button variant="contained" className="run-model-button" onClick={handleRunModel} disabled={isButtonDisabled() || loading}>
           Run Model
         </Button>
+        {showPredictModel && (
+          <Button variant="contained" className="predict-model-button" onClick={handlePredictModel} sx={{ backgroundColor: "#9932cc", color: "white" }}>
+            Predict Model
+          </Button>
+        )}
       </Box>
 
       {/* Test Performance Results - Now on the same line */}
@@ -137,16 +154,18 @@ export default function Home() {
         </Typography>
       </Box>
 
-      {/* Prediction Slider */}
-      <Box sx={{ mt: 4, width: "80%", maxWidth: "500px", mx: "auto" }}>
-        <Typography variant="h6" sx={{ whiteSpace: "nowrap" }}>
-          Predict how well the model will perform on new data
-        </Typography>
-        <Slider value={predictedPerformance} onChange={(event, newValue) => setPredictedPerformance(newValue)} min={0} max={100} step={1} marks={[{ value: 0, label: "0" }, { value: 100, label: "100" }]} sx={{ color: "#9932cc" }} />
-        <Typography sx={{ mt: 2, fontSize: "18px", fontWeight: "bold" }}>
-          Your Prediction: {predictedPerformance}%
-        </Typography>
-      </Box>
+      {/* Prediction Slider - Appears when Predict Model is clicked */}
+      {showSlider && (
+        <Box sx={{ mt: 4, width: "80%", maxWidth: "500px", mx: "auto" }}>
+          <Typography variant="h6" sx={{ whiteSpace: "nowrap" }}>
+            Predict how well the model will perform on new data
+          </Typography>
+          <Slider value={predictedPerformance} onChange={(event, newValue) => setPredictedPerformance(newValue)} min={0} max={100} step={1} marks={[{ value: 0, label: "0" }, { value: 100, label: "100" }]} sx={{ color: "#9932cc" }} />
+          <Typography sx={{ mt: 2, fontSize: "18px", fontWeight: "bold" }}>
+            Your Prediction: {predictedPerformance}%
+          </Typography>
+        </Box>
+      )}
     </Box>
   );
 }
