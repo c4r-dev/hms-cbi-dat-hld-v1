@@ -21,8 +21,8 @@ export default function RootLayout({ children }) {
           {/* Title container for responsive width */}
           <div className="title-container">
             <h1 className="title">
-              We’ve got this model - we think it performs great. <br />
-              Here's how we selected the training and testing data for it.
+              Confirmation Bias <br />
+              Select subsets of data for training and testing the model. 
             </h1>
           </div>
         </header>

@@ -45,7 +45,7 @@ export default function Home() {
   return (
     <Box sx={{ p: 4, textAlign: "center", mt: 12 }}>
       <Typography className="centeredTitle">
-        Select subsets of the data to be used for training and testing the model
+        Instructions for selecting subsets and why
       </Typography>
 
 
