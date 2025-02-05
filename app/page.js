@@ -18,6 +18,7 @@ export default function Home() {
   const [showPredictModel, setShowPredictModel] = useState(false);
   const [showSlider, setShowSlider] = useState(false);
   const [hideButtons, setHideButtons] = useState(false);
+  const [outOfSamplePerformance, setOutOfSamplePerformance] = useState(null);
 
   const handleChange = (dataset, type) => {
     setDatasets((prev) => ({
@@ -58,16 +59,20 @@ export default function Home() {
 
       if (matchedObject?.test_performance !== undefined) {
         const testPerf = (matchedObject.test_performance * 100).toFixed(2);
+        const out_of_sample_performance = (matchedObject.out_of_sample_performance * 100).toFixed(2); // New line to get out_of_sample_performance  
         setTestPerformance(`${testPerf}%`);
         setPredictedPerformance(parseFloat(testPerf));
+        setOutOfSamplePerformance(out_of_sample_performance); // Store the out_of_sample_performance
       } else {
-        setTestPerformance("No results found");
+        setTestPerformance(50);
         setPredictedPerformance(50);
+        setOutOfSamplePerformance(80)
       }
     } catch (error) {
       console.error("Error fetching data:", error);
-      setTestPerformance("Error loading results");
+      setTestPerformance(50);
       setPredictedPerformance(50);
+      setOutOfSamplePerformance(80)
     }
 
     setTimeout(() => {
@@ -81,7 +86,28 @@ export default function Home() {
   };
 
   const handleRunModelWithNewData = () => {
+
     setShowSlider(false); // Hide the slider when this button is clicked
+
+    const errorValue = predictedPerformance - outOfSamplePerformance;
+    const formattedErrorValue = errorValue.toFixed(2);
+
+    const userData = {
+      predicted_performance: predictedPerformance,
+      actual_performance: outOfSamplePerformance,
+      error_in_accuracy: formattedErrorValue,
+      timestamp: new Date().toISOString(),
+      selected_subsets: datasets,
+    };
+
+    fetch("/api/saveUserData", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(userData),
+    })
+      .then((res) => res.json())
+      .then((data) => console.log("Data saved to MongoDB:", data))
+      .catch((error) => console.error("Error saving data:", error));
   };
 
   const isButtonDisabled = () => {
