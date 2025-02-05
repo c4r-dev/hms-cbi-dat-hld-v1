@@ -218,6 +218,11 @@ button, .run-model-button {
   background-color: #800080 !important;
 }
 
+.predict-model-button:hover {
+  background-color: #800080 !important;
+}
+
+
 /* Disabled Button */
 .run-model-button:disabled {
   background-color: #cccccc !important;
