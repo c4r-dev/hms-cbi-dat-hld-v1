@@ -159,7 +159,7 @@ export default function Home() {
         <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 2, mt: 3 }}>
           <Button
             variant="contained"
-            className="run-model-button"
+            className={`run-model-button ${showPredictModel ? "light-purple" : ""}`}
             onClick={handleRunModel}
             disabled={isButtonDisabled() || loading}
           >

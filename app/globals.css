@@ -222,6 +222,14 @@ button, .run-model-button {
   background-color: #800080 !important;
 }
 
+.run-model-button.light-purple {
+  background-color: #d8b6ff !important; /* Light Purple */
+  color: white !important;
+}
+
+.run-model-button.light-purple:hover {
+  background-color: #c49cff !important; /* Slightly darker purple */
+}
 
 /* Disabled Button */
 .run-model-button:disabled {
