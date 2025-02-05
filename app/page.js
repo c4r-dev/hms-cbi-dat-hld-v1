@@ -1,7 +1,8 @@
 "use client";
 
-import React, { useState } from "react";
-import { Box, Checkbox, Typography, Button, CircularProgress, Slider } from "@mui/material";
+import React, { useState, useEffect } from "react";
+import { Modal, Box, Checkbox, Typography, Button, CircularProgress, Slider } from "@mui/material";
+import { ResponsiveContainer, AreaChart, XAxis, YAxis, Area, Tooltip } from "recharts";
 
 export default function Home() {
   const [datasets, setDatasets] = useState({
@@ -21,6 +22,33 @@ export default function Home() {
   const [outOfSamplePerformance, setOutOfSamplePerformance] = useState(null);
   const [showResults, setShowResults] = useState(false);
   const [errorValue, setErrorValue] = useState(null);
+  const [open, setOpen] = useState(false);
+  const [errorData, setErrorData] = useState([]);
+
+  const fetchErrorData = async () => {
+    try {
+      const response = await fetch("/api/getAllUserErrors");
+      const data = await response.json();
+
+      // Extract only error_in_accuracy and sort from smallest to largest
+      const formattedData = data.errors
+        .map(d => ({ error_in_accuracy: d.error_in_accuracy }))
+        .sort((a, b) => a.error_in_accuracy - b.error_in_accuracy); // Sorting in ascending order
+
+      setErrorData(formattedData);
+
+    } catch (error) {
+      console.error("Error fetching user errors:", error);
+    }
+  };
+
+  const handleOpen = () => {
+    fetchErrorData();
+    setOpen(true);
+  };
+
+  const handleClose = () => setOpen(false);
+
 
   const handleChange = (dataset, type) => {
     setDatasets((prev) => ({
@@ -242,12 +270,39 @@ export default function Home() {
           variant="contained"
           className="run-model-button"
           sx={{ mt: 2 }}
-          onClick={() => console.log("Show Density Chart Modal")}
+          onClick={handleOpen}
         >
           See How Others Did
         </Button>
       )}
 
+      <Modal open={open} onClose={handleClose} aria-labelledby="density-chart-modal">
+        <Box sx={{ p: 4, backgroundColor: "white", borderRadius: "8px", width: "500px", margin: "auto", mt: 8 }}>
+          <Typography variant="h6" gutterBottom>
+            Error Distribution (Density Chart)
+          </Typography>
+
+          <ResponsiveContainer width="100%" height={300}>
+            <AreaChart data={errorData} margin={{ top: 10, right: 30, left: 0, bottom: 50 }}>
+              <XAxis
+                dataKey="error_in_accuracy"
+                label={{
+                  value: "Difference between user guesses and actual model performance",
+                  position: "bottom",
+                  dy: 25 // Adjust label position
+                }}
+              />
+              <YAxis />
+              <Tooltip />
+              <Area type="monotone" dataKey="error_in_accuracy" stroke="#8884d8" fill="#8884d8" />
+            </AreaChart>
+          </ResponsiveContainer>
+
+          <Button onClick={handleClose} variant="contained" sx={{ mt: 2 }}>
+            Close
+          </Button>
+        </Box>
+      </Modal>
 
     </Box>
   );
