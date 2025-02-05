@@ -288,7 +288,7 @@ export default function Home() {
               <XAxis
                 dataKey="error_in_accuracy"
                 label={{
-                  value: "Difference between user guesses and actual model performance",
+                  value: "Difference Between User Guesses and Actual Model Performance",
                   position: "bottom",
                   dy: 25 // Adjust label position
                 }}
