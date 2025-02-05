@@ -237,6 +237,18 @@ export default function Home() {
         </Box>
       )}
 
+      {showResults && (
+        <Button
+          variant="contained"
+          className="run-model-button"
+          sx={{ mt: 2 }}
+          onClick={() => console.log("Show Density Chart Modal")}
+        >
+          See How Others Did
+        </Button>
+      )}
+
+
     </Box>
   );
 }
