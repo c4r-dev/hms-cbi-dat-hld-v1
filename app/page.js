@@ -17,6 +17,7 @@ export default function Home() {
   const [runCount, setRunCount] = useState(0);
   const [showPredictModel, setShowPredictModel] = useState(false);
   const [showSlider, setShowSlider] = useState(false);
+  const [hideButtons, setHideButtons] = useState(false);
 
   const handleChange = (dataset, type) => {
     setDatasets((prev) => ({
@@ -76,6 +77,7 @@ export default function Home() {
 
   const handlePredictModel = () => {
     setShowSlider(true);
+    setHideButtons(true); // Hide buttons after clicking Predict Model
   };
 
   const isButtonDisabled = () => {
@@ -133,16 +135,28 @@ export default function Home() {
       </Box>
 
       {/* Run Model & Predict Model Buttons */}
-      <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 2, mt: 3 }}>
-        <Button variant="contained" className="run-model-button" onClick={handleRunModel} disabled={isButtonDisabled() || loading}>
-          Run Model
-        </Button>
-        {showPredictModel && (
-          <Button variant="contained" className="predict-model-button" onClick={handlePredictModel} sx={{ backgroundColor: "#9932cc", color: "white" }}>
-            Predict Model
+      {!hideButtons && (
+        <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 2, mt: 3 }}>
+          <Button
+            variant="contained"
+            className="run-model-button"
+            onClick={handleRunModel}
+            disabled={isButtonDisabled() || loading}
+          >
+            Run Model
           </Button>
-        )}
-      </Box>
+          {showPredictModel && (
+            <Button
+              variant="contained"
+              className="predict-model-button"
+              onClick={handlePredictModel}
+            >
+              Predict Model
+            </Button>
+          )}
+        </Box>
+      )}
+
 
       {/* Test Performance Results - Now on the same line */}
       <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mt: 2 }}>
