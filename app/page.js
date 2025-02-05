@@ -139,7 +139,7 @@ export default function Home() {
       body: JSON.stringify(userData),
     })
       .then((res) => res.json())
-      .then((data) => console.log("Data saved to MongoDB:", data))
+      // .then((data) => console.log("Data saved to MongoDB:", data))
       .catch((error) => console.error("Error saving data:", error));
   };
 
