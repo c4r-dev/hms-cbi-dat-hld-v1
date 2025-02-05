@@ -121,13 +121,14 @@ export default function Home() {
     setShowResults(true); // Show the results
 
     const errorValue = parseFloat(predictedPerformance) - parseFloat(outOfSamplePerformance);
-    const formattedErrorValue = isNaN(errorValue) ? "N/A" : errorValue.toFixed(2);
+    const formattedErrorValue = isNaN(errorValue) ? null : parseFloat(errorValue.toFixed(2));
+
     setErrorValue(formattedErrorValue);
 
     const userData = {
-      predicted_performance: predictedPerformance,
-      actual_performance: outOfSamplePerformance,
-      error_in_accuracy: formattedErrorValue,
+      predicted_performance: parseFloat(predictedPerformance), // Convert to number
+      actual_performance: parseFloat(outOfSamplePerformance), // Convert to number
+      error_in_accuracy: formattedErrorValue, // Ensure it's a number
       timestamp: new Date().toISOString(),
       selected_subsets: datasets,
     };
