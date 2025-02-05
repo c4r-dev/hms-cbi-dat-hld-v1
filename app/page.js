@@ -175,7 +175,7 @@ export default function Home() {
             Predict how well the model will perform on new data
           </Typography>
           <Slider value={predictedPerformance} onChange={(event, newValue) => setPredictedPerformance(newValue)} min={0} max={100} step={1} marks={[{ value: 0, label: "0" }, { value: 100, label: "100" }]} sx={{ color: "#9932cc" }} />
-          <Typography sx={{ mt: 1, fontSize: "18px", fontWeight: "bold" }}>
+          <Typography sx={{ mt: 0, fontSize: "18px", fontWeight: "bold" }}>
             Your Prediction: {predictedPerformance}%
           </Typography>
         </Box>
