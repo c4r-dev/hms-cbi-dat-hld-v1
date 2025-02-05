@@ -34,7 +34,7 @@ export default function Home() {
     setRunCount((prev) => prev + 1);
 
     if (runCount + 1 >= 2) {
-      setShowPredictModel(true); // Show "Predict Model" after 2 clicks
+      setShowPredictModel(true);
     }
 
     try {
@@ -77,7 +77,11 @@ export default function Home() {
 
   const handlePredictModel = () => {
     setShowSlider(true);
-    setHideButtons(true); // Hide buttons after clicking Predict Model
+    setHideButtons(true);
+  };
+
+  const handleRunModelWithNewData = () => {
+    setShowSlider(false); // Hide the slider when this button is clicked
   };
 
   const isButtonDisabled = () => {
@@ -99,21 +103,15 @@ export default function Home() {
       </Typography>
 
       <Box sx={{ display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "center", gap: 8, mt: 3 }}>
-        {/* Training Section */}
         <Box className="training-container" sx={{ textAlign: "center" }}>
-          <Typography mb={1} variant="h6">
-            Training
-          </Typography>
+          <Typography mb={1} variant="h6">Training</Typography>
           <Box className="tube">
             <Box className="tube-fill training-fill" sx={{ height: calculateFill("training") }} />
           </Box>
         </Box>
 
-        {/* Dataset Section */}
         <Box className="dataset-section" sx={{ textAlign: "center" }}>
-          <Typography variant="h6" mb={2}>
-            Data Subsets
-          </Typography>
+          <Typography variant="h6" mb={2}>Data Subsets</Typography>
           {Object.keys(datasets).map((dataset, index) => (
             <Box key={dataset} className="subset-container" sx={{ display: "flex", alignItems: "center", gap: 1 }}>
               <Checkbox checked={datasets[dataset].training} onChange={() => handleChange(dataset, "training")} />
@@ -123,18 +121,14 @@ export default function Home() {
           ))}
         </Box>
 
-        {/* Testing Section */}
         <Box className="testing-container" sx={{ textAlign: "center" }}>
-          <Typography mb={1} variant="h6">
-            Testing
-          </Typography>
+          <Typography mb={1} variant="h6">Testing</Typography>
           <Box className="tube">
             <Box className="tube-fill testing-fill" sx={{ height: calculateFill("testing") }} />
           </Box>
         </Box>
       </Box>
 
-      {/* Run Model & Predict Model Buttons */}
       {!hideButtons && (
         <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 2, mt: 3 }}>
           <Button
@@ -157,27 +151,38 @@ export default function Home() {
         </Box>
       )}
 
-
-      {/* Test Performance Results - Now on the same line */}
       <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mt: 2 }}>
-        <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>
-          Here are the testing results:
-        </Typography>
+        <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>Here are the testing results:</Typography>
         <Typography sx={{ fontSize: "18px", fontWeight: "bold", ml: 1 }}>
           {loading ? <CircularProgress size={24} /> : testPerformance || "No results yet"}
         </Typography>
       </Box>
 
-      {/* Prediction Slider - Appears when Predict Model is clicked */}
       {showSlider && (
         <Box sx={{ mt: 2, width: "80%", maxWidth: "500px", mx: "auto" }}>
           <Typography variant="h6" sx={{ whiteSpace: "nowrap" }}>
             Predict how well the model will perform on new data
           </Typography>
-          <Slider value={predictedPerformance} onChange={(event, newValue) => setPredictedPerformance(newValue)} min={0} max={100} step={1} marks={[{ value: 0, label: "0" }, { value: 100, label: "100" }]} sx={{ color: "#9932cc" }} />
+          <Slider
+            value={predictedPerformance}
+            onChange={(event, newValue) => setPredictedPerformance(newValue)}
+            min={0}
+            max={100}
+            step={1}
+            marks={[{ value: 0, label: "0" }, { value: 100, label: "100" }]}
+            sx={{ color: "#9932cc" }}
+          />
           <Typography sx={{ mt: 0, fontSize: "18px", fontWeight: "bold" }}>
             Your Prediction: {predictedPerformance}%
           </Typography>
+          <Button
+            variant="contained"
+            className="run-model-button"
+            sx={{ mt: 2 }}
+            onClick={handleRunModelWithNewData}
+          >
+            Run Model with New Data
+          </Button>
         </Box>
       )}
     </Box>
