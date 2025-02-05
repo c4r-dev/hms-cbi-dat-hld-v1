@@ -19,6 +19,8 @@ export default function Home() {
   const [showSlider, setShowSlider] = useState(false);
   const [hideButtons, setHideButtons] = useState(false);
   const [outOfSamplePerformance, setOutOfSamplePerformance] = useState(null);
+  const [showResults, setShowResults] = useState(false);
+  const [errorValue, setErrorValue] = useState(null);
 
   const handleChange = (dataset, type) => {
     setDatasets((prev) => ({
@@ -88,9 +90,11 @@ export default function Home() {
   const handleRunModelWithNewData = () => {
 
     setShowSlider(false); // Hide the slider when this button is clicked
+    setShowResults(true); // Show the results
 
-    const errorValue = predictedPerformance - outOfSamplePerformance;
-    const formattedErrorValue = errorValue.toFixed(2);
+    const errorValue = parseFloat(predictedPerformance) - parseFloat(outOfSamplePerformance);
+    const formattedErrorValue = isNaN(errorValue) ? "N/A" : errorValue.toFixed(2);
+    setErrorValue(formattedErrorValue);
 
     const userData = {
       predicted_performance: predictedPerformance,
@@ -211,6 +215,28 @@ export default function Home() {
           </Button>
         </Box>
       )}
+
+      {showResults && (
+        <Box sx={{ display: "flex", justifyContent: "center", gap: 4, mt: 4 }}>
+          <Box sx={{ textAlign: "center", border: "2px solid #9932cc", borderRadius: "8px", p: 2, minWidth: "150px" }}>
+            <Typography variant="h6" sx={{ fontWeight: "bold" }}>Your Guess</Typography>
+            <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>{predictedPerformance}%</Typography>
+          </Box>
+
+          <Box sx={{ textAlign: "center", border: "2px solid #ff9800", borderRadius: "8px", p: 2, minWidth: "150px" }}>
+            <Typography variant="h6" sx={{ fontWeight: "bold" }}>Difference</Typography>
+            <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>
+              {errorValue ?? "N/A"}%
+            </Typography>
+          </Box>
+
+          <Box sx={{ textAlign: "center", border: "2px solid #4caf50", borderRadius: "8px", p: 2, minWidth: "150px" }}>
+            <Typography variant="h6" sx={{ fontWeight: "bold" }}>Actual Model Performance</Typography>
+            <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>{outOfSamplePerformance}%</Typography>
+          </Box>
+        </Box>
+      )}
+
     </Box>
   );
 }
