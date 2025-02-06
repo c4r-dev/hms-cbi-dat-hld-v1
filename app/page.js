@@ -190,9 +190,29 @@ export default function Home() {
           <Typography variant="h6" mb={2}>Data Subsets</Typography>
           {Object.keys(datasets).map((dataset, index) => (
             <Box key={dataset} className="subset-container" sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-              <Checkbox checked={datasets[dataset].training} onChange={() => handleChange(dataset, "training")} disabled={hideButtons} />
+              <Checkbox
+                checked={datasets[dataset].training}
+                onChange={() => handleChange(dataset, "training")}
+                disabled={hideButtons}
+                sx={{
+                  color: "#E0E0E0", // Default color
+                  "&.Mui-checked": {
+                    color: "#6F00FF", // Checked color
+                  },
+                }}
+              />
               <Box className="subset-box">{index + 1}</Box>
-              <Checkbox checked={datasets[dataset].testing} onChange={() => handleChange(dataset, "testing")} disabled={hideButtons} />
+              <Checkbox
+                checked={datasets[dataset].testing}
+                onChange={() => handleChange(dataset, "testing")}
+                disabled={hideButtons}
+                sx={{
+                  color: "#E0E0E0", // Default color
+                  "&.Mui-checked": {
+                    color: "#6F00FF", // Checked color
+                  },
+                }}
+              />
             </Box>
           ))}
         </Box>

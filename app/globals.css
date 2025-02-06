@@ -99,6 +99,11 @@ h2, .centeredTitle {
   text-align: center;
 }
 
+/* Change checkbox color when checked */
+input[type="checkbox"]:checked {
+  accent-color: #6F00FF; /* Deep Purple */
+}
+
 /* Styling for the checkbox labels */
 label {
   cursor: pointer;
@@ -156,14 +161,14 @@ label {
 .training-fill {
   background: linear-gradient(
     to top,
-    #4b0082, #800080, #9400d3, #9932cc, #ba55d3
+    #ff9800, #ffa726, #ffb74d, #ffcc80, #ffe0b2
   );
 }
 
 .testing-fill {
   background: linear-gradient(
     to top,
-    #ba55d3, #9932cc, #9400d3, #800080, #4b0082
+    #2196f3, #42a5f5, #64b5f6, #90caf9, #bbdefb
   );
 }
 
@@ -203,7 +208,7 @@ label {
 
 /* Improved Run Model Button Spacing */
 button, .run-model-button {
-  background-color: #9932cc !important;
+  background-color: #6F00FF !important;
   color: white !important;
   font-size: 16px;
   font-weight: bold;
