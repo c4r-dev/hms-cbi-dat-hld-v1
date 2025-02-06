@@ -305,14 +305,14 @@ export default function Home() {
             <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>{predictedPerformance}%</Typography>
           </Box>
 
-          <Box sx={{ textAlign: "center", border: "2px solid #ff9800", borderRadius: "8px", p: 2, minWidth: "150px" }}>
+          <Box sx={{ textAlign: "center", border: "2px solid #ef1038", borderRadius: "8px", p: 2, minWidth: "150px" }}>
             <Typography variant="h6" sx={{ fontWeight: "bold" }}>Difference</Typography>
             <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>
               {errorValue ?? "N/A"}%
             </Typography>
           </Box>
 
-          <Box sx={{ textAlign: "center", border: "2px solid #4caf50", borderRadius: "8px", p: 2, minWidth: "150px" }}>
+          <Box sx={{ textAlign: "center", border: "2px solid #48923d", borderRadius: "8px", p: 2, minWidth: "150px" }}>
             <Typography variant="h6" sx={{ fontWeight: "bold" }}>Actual Model Performance</Typography>
             <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>{outOfSamplePerformance}%</Typography>
           </Box>
