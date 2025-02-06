@@ -220,20 +220,20 @@ button, .run-model-button {
 
 /* Hover effect */
 .run-model-button:hover {
-  background-color: #800080 !important;
+  background-color: #5700CA!important;
 }
 
 .predict-model-button:hover {
-  background-color: #800080 !important;
+  background-color: #5700CA !important;
 }
 
 .run-model-button.light-purple {
-  background-color: #d8b6ff !important; /* Light Purple */
+  background-color: #E0E0E0 !important; /* Light Purple */
   color: white !important;
 }
 
 .run-model-button.light-purple:hover {
-  background-color: #c49cff !important; /* Slightly darker purple */
+  background-color: #A2A2A2 !important; /* Slightly darker purple */
 }
 
 /* Disabled Button */
