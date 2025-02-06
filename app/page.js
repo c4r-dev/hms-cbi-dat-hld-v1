@@ -220,7 +220,7 @@ export default function Home() {
               onClick={handlePredictModel}
               sx={{ ml: 8 }}  // Add left margin
             >
-              Predict Model
+              Predict Performance
             </Button>
           )}
           <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mt: 0 }}>
