@@ -174,7 +174,9 @@ export default function Home() {
   return (
     <Box sx={{ p: 4, textAlign: "center", mt: 6 }}>
       <Typography sx={{ fontSize: "18px", fontWeight: "bold", whiteSpace: "normal", maxWidth: "800px", mx: "auto", mb: 4 }}>
-        Select the data subsets for training and testing the model. </Typography>
+        Select the data subsets for training and testing the model. <br></br> <br></br>
+        Be sure to select at least one training and one testing subset before building the model.
+      </Typography>
 
       <Box sx={{ display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "center", gap: 8, mt: 3 }}>
         <Box className="training-container" sx={{ textAlign: "center" }}>
