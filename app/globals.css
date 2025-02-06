@@ -228,18 +228,18 @@ button, .run-model-button {
 }
 
 .run-model-button.light-purple {
-  background-color: #E0E0E0 !important; /* Light Purple */
+  background-color: #6F00FF !important; /* Light Purple */
   color: white !important;
 }
 
 .run-model-button.light-purple:hover {
-  background-color: #A2A2A2 !important; /* Slightly darker purple */
+  background-color: #5700CA !important; /* Slightly darker purple */
 }
 
 /* Disabled Button */
 .run-model-button:disabled {
-  background-color: #cccccc !important;
-  color: #666666 !important;
+  background-color: #6F00FF !important; /* Light Purple */
+  color: white !important;
   cursor: not-allowed;
 }
 
