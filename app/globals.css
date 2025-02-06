@@ -238,8 +238,8 @@ button, .run-model-button {
 
 /* Disabled Button */
 .run-model-button:disabled {
-  background-color: #6F00FF !important; /* Light Purple */
-  color: white !important;
+  background-color: #AD9FFF !important; /* Light Purple */
+  color: #FFFFFF !important;
   cursor: not-allowed;
 }
 

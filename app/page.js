@@ -230,7 +230,7 @@ export default function Home() {
           {/* Build Model and Test Accuracy */}
           <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 2 }}>
             <Button
-              variant="contained"
+              variant="text"
               className={`run-model-button ${showPredictModel ? "light-purple" : ""}`}
               onClick={handleRunModel}
               disabled={isButtonDisabled() || loading}
@@ -250,7 +250,7 @@ export default function Home() {
           {showPredictModel && (
             <Box sx={{ mt: 2 }}> {/* Ensures Predict Performance appears below */}
               <Button
-                variant="contained"
+                variant="text"
                 className="predict-model-button"
                 onClick={handlePredictModel}
               >
@@ -288,7 +288,7 @@ export default function Home() {
             Your Prediction: {predictedPerformance}%
           </Typography>
           <Button
-            variant="contained"
+            variant="text"
             className="run-model-button"
             sx={{ mt: 2 }}
             onClick={handleRunModelWithNewData}
@@ -321,7 +321,7 @@ export default function Home() {
 
       {showResults && (
         <Button
-          variant="contained"
+          variant="text"
           className="run-model-button"
           sx={{ mt: 2 }}
           onClick={handleOpen}
@@ -366,7 +366,11 @@ export default function Home() {
           </ResponsiveContainer>
 
 
-          <Button onClick={handleClose} variant="contained" sx={{ mt: 2 }}>
+          <Button
+            onClick={handleClose}
+            variant="text"
+            sx={{ mt: 2 }}
+          >
             Close
           </Button>
         </Box>
