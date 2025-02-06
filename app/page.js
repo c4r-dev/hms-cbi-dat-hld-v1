@@ -240,8 +240,6 @@ export default function Home() {
       )}
 
 
-
-
       {showSlider && (
         <Box sx={{ mt: 2, width: "80%", maxWidth: "500px", mx: "auto" }}>
           <Typography variant="h6" sx={{ whiteSpace: "nowrap" }}>
@@ -265,7 +263,7 @@ export default function Home() {
             sx={{ mt: 2 }}
             onClick={handleRunModelWithNewData}
           >
-            Build Model with New Data
+            EVALUATE THE MODEL ON HOLDOUT DATA
           </Button>
         </Box>
       )}
