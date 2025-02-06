@@ -208,7 +208,7 @@ export default function Home() {
       {!hideButtons && (
         <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 2, mt: 3 }}>
           {/* Build Model and Test Accuracy */}
-          <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 14 }}>
+          <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 2 }}>
             <Button
               variant="contained"
               className={`run-model-button ${showPredictModel ? "light-purple" : ""}`}
