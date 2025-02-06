@@ -199,6 +199,10 @@ export default function Home() {
                   "&.Mui-checked": {
                     color: "#6F00FF", // Checked color
                   },
+                  "& .MuiSvgIcon-root": {
+                    border: "2px solid black", // Black border around the checkbox when unchecked
+                    // borderRadius: "4px", // Optional: Slightly rounded corners
+                  },
                 }}
               />
               <Box className="subset-box">{index + 1}</Box>
@@ -210,6 +214,10 @@ export default function Home() {
                   color: "#E0E0E0", // Default color
                   "&.Mui-checked": {
                     color: "#6F00FF", // Checked color
+                  },
+                  "& .MuiSvgIcon-root": {
+                    border: "2px solid black", // Black border around the checkbox when unchecked
+                    // borderRadius: "4px", // Optional: Slightly rounded corners
                   },
                 }}
               />
