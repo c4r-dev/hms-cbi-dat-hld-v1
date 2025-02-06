@@ -218,19 +218,21 @@ export default function Home() {
               variant="contained"
               className="predict-model-button"
               onClick={handlePredictModel}
+              sx={{ ml: 8 }}  // Add left margin
             >
               Predict Model
             </Button>
           )}
+          <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mt: 5 }}>
+            <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>Test Accuracy:</Typography>
+            <Typography sx={{ fontSize: "18px", fontWeight: "bold", ml: 1 }}>
+              {loading ? <CircularProgress size={24} /> : testPerformance || "No results yet"}
+            </Typography>
+          </Box>
         </Box>
       )}
 
-      <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mt: 2 }}>
-        <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>Test Accuracy:</Typography>
-        <Typography sx={{ fontSize: "18px", fontWeight: "bold", ml: 1 }}>
-          {loading ? <CircularProgress size={24} /> : testPerformance || "No results yet"}
-        </Typography>
-      </Box>
+
 
       {showSlider && (
         <Box sx={{ mt: 2, width: "80%", maxWidth: "500px", mx: "auto" }}>
