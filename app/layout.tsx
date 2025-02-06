@@ -21,8 +21,7 @@ export default function RootLayout({ children }) {
           {/* Title container for responsive width */}
           <div className="title-container">
             <h1 className="title">
-              Confirmation Bias <br />
-              Select subsets of data for training and testing the model. 
+              Build a Parkinson's Disease Detector
             </h1>
           </div>
         </header>

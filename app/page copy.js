@@ -25,22 +25,39 @@ export default function Home() {
   const [open, setOpen] = useState(false);
   const [errorData, setErrorData] = useState([]);
 
+  const computeFrequency = (data, numBins = 20) => {
+    if (data.length === 0) return [];
+
+    const min = Math.min(...data);
+    const max = Math.max(...data);
+    const binWidth = (max - min) / numBins;
+
+    let frequency = Array.from({ length: numBins }, (_, i) => {
+      const x = min + i * binWidth;
+      const count = data.filter(v => v >= x && v < x + binWidth).length;
+      return { error_in_accuracy: x, frequency: count };
+    });
+
+    return frequency;
+  };
+
+  // Update fetchErrorData function to use frequency
   const fetchErrorData = async () => {
     try {
       const response = await fetch("/api/getAllUserErrors");
       const data = await response.json();
 
-      // Extract only error_in_accuracy and sort from smallest to largest
-      const formattedData = data.errors
-        .map(d => ({ error_in_accuracy: d.error_in_accuracy }))
-        .sort((a, b) => a.error_in_accuracy - b.error_in_accuracy); // Sorting in ascending order
+      // Extract error values and compute frequency
+      const errors = data.errors.map(d => d.error_in_accuracy).sort((a, b) => a - b);
+      const frequencyData = computeFrequency(errors);
 
-      setErrorData(formattedData);
-
+      setErrorData(frequencyData);
     } catch (error) {
       console.error("Error fetching user errors:", error);
     }
   };
+
+
 
   const handleOpen = () => {
     fetchErrorData();
@@ -279,9 +296,14 @@ export default function Home() {
 
       <Modal open={open} onClose={handleClose} aria-labelledby="density-chart-modal">
         <Box sx={{ p: 4, backgroundColor: "white", borderRadius: "8px", width: "500px", margin: "auto", mt: 8 }}>
-          <Typography variant="h6" gutterBottom>
-            Error Distribution (Density Chart)
+          <Typography
+            variant="h6"
+            gutterBottom
+            sx={{ textAlign: "center", width: "100%" }}
+          >
+            Error Distribution
           </Typography>
+
 
           <ResponsiveContainer width="100%" height={300}>
             <AreaChart data={errorData} margin={{ top: 10, right: 30, left: 0, bottom: 50 }}>
@@ -293,11 +315,20 @@ export default function Home() {
                   dy: 25 // Adjust label position
                 }}
               />
-              <YAxis />
-              <Tooltip />
-              <Area type="monotone" dataKey="error_in_accuracy" stroke="#8884d8" fill="#8884d8" />
+              <YAxis
+                dataKey="frequency"
+                label={{
+                  value: "Frequency",
+                  angle: -90,
+                  position: "insideLeft",
+                  dy: -5
+                }}
+              />
+              <Area type="monotone" dataKey="frequency" stroke="#8884d8" fill="#8884d8" />
+
             </AreaChart>
           </ResponsiveContainer>
+
 
           <Button onClick={handleClose} variant="contained" sx={{ mt: 2 }}>
             Close
