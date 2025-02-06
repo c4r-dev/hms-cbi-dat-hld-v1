@@ -282,7 +282,7 @@ export default function Home() {
             max={100}
             step={1}
             marks={[{ value: 0, label: "0" }, { value: 100, label: "100" }]}
-            sx={{ color: "#9932cc" }}
+            sx={{ color: "#6F00FF" }}
           />
           <Typography sx={{ mt: 0, fontSize: "18px", fontWeight: "bold" }}>
             Your Prediction: {predictedPerformance}%
