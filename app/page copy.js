@@ -174,7 +174,9 @@ export default function Home() {
   return (
     <Box sx={{ p: 4, textAlign: "center", mt: 6 }}>
       <Typography sx={{ fontSize: "18px", fontWeight: "bold", whiteSpace: "normal", maxWidth: "800px", mx: "auto", mb: 4 }}>
-        Select the data subsets for training and testing the model. </Typography>
+        Select the data subsets for training and testing the model. <br></br> <br></br>
+        Be sure to select at least one training and one testing subset before building the model.
+      </Typography>
 
       <Box sx={{ display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "center", gap: 8, mt: 3 }}>
         <Box className="training-container" sx={{ textAlign: "center" }}>
@@ -204,34 +206,40 @@ export default function Home() {
       </Box>
 
       {!hideButtons && (
-        <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 2, mt: 3 }}>
-          <Button
-            variant="contained"
-            className={`run-model-button ${showPredictModel ? "light-purple" : ""}`}
-            onClick={handleRunModel}
-            disabled={isButtonDisabled() || loading}
-          >
-            Build Model
-          </Button>
-          {showPredictModel && (
+        <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 2, mt: 3 }}>
+          {/* Build Model and Test Accuracy */}
+          <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 2 }}>
             <Button
               variant="contained"
-              className="predict-model-button"
-              onClick={handlePredictModel}
-              sx={{ ml: 8 }}  // Add left margin
+              className={`run-model-button ${showPredictModel ? "light-purple" : ""}`}
+              onClick={handleRunModel}
+              disabled={isButtonDisabled() || loading}
             >
-              Predict Performance
+              Build Model
             </Button>
-          )}
-          <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mt: 0 }}>
-            <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>Test Accuracy:</Typography>
-            <Typography sx={{ fontSize: "18px", fontWeight: "bold", ml: 1 }}>
-              {loading ? <CircularProgress size={24} /> : testPerformance || "No results yet"}
-            </Typography>
+
+            <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mt: 0 }}>
+              <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>Test Accuracy:</Typography>
+              <Typography sx={{ fontSize: "18px", fontWeight: "bold", ml: 1 }}>
+                {loading ? <CircularProgress size={24} /> : testPerformance || "No results yet"}
+              </Typography>
+            </Box>
           </Box>
+
+          {/* Predict Performance on a New Line */}
+          {showPredictModel && (
+            <Box sx={{ mt: 2 }}> {/* Ensures Predict Performance appears below */}
+              <Button
+                variant="contained"
+                className="predict-model-button"
+                onClick={handlePredictModel}
+              >
+                Predict Performance
+              </Button>
+            </Box>
+          )}
         </Box>
       )}
-
 
 
       {showSlider && (
@@ -257,7 +265,7 @@ export default function Home() {
             sx={{ mt: 2 }}
             onClick={handleRunModelWithNewData}
           >
-            Build Model with New Data
+            EVALUATE THE MODEL ON HOLDOUT DATA
           </Button>
         </Box>
       )}
