@@ -174,9 +174,7 @@ export default function Home() {
   return (
     <Box sx={{ p: 4, textAlign: "center", mt: 6 }}>
       <Typography sx={{ fontSize: "18px", fontWeight: "bold", whiteSpace: "normal", maxWidth: "800px", mx: "auto", mb: 4 }}>
-        To Train and Test the Model, select checkboxes to add Data Subsets to Training and Testing.
-        This ensures the model learns patterns from training data and evaluates its accuracy on unseen testing data.
-      </Typography>
+        Select the data subsets for training and testing the model. </Typography>
 
       <Box sx={{ display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "center", gap: 8, mt: 3 }}>
         <Box className="training-container" sx={{ textAlign: "center" }}>
@@ -213,26 +211,28 @@ export default function Home() {
             onClick={handleRunModel}
             disabled={isButtonDisabled() || loading}
           >
-            Run Model
+            Build Model
           </Button>
           {showPredictModel && (
             <Button
               variant="contained"
               className="predict-model-button"
               onClick={handlePredictModel}
+              sx={{ ml: 8 }}  // Add left margin
             >
-              Predict Model
+              Predict Performance
             </Button>
           )}
+          <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mt: 0 }}>
+            <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>Test Accuracy:</Typography>
+            <Typography sx={{ fontSize: "18px", fontWeight: "bold", ml: 1 }}>
+              {loading ? <CircularProgress size={24} /> : testPerformance || "No results yet"}
+            </Typography>
+          </Box>
         </Box>
       )}
 
-      <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mt: 2 }}>
-        <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>Here are the testing results:</Typography>
-        <Typography sx={{ fontSize: "18px", fontWeight: "bold", ml: 1 }}>
-          {loading ? <CircularProgress size={24} /> : testPerformance || "No results yet"}
-        </Typography>
-      </Box>
+
 
       {showSlider && (
         <Box sx={{ mt: 2, width: "80%", maxWidth: "500px", mx: "auto" }}>
@@ -257,7 +257,7 @@ export default function Home() {
             sx={{ mt: 2 }}
             onClick={handleRunModelWithNewData}
           >
-            Run Model with New Data
+            Build Model with New Data
           </Button>
         </Box>
       )}

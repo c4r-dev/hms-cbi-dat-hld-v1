@@ -213,22 +213,24 @@ export default function Home() {
           >
             Build Model
           </Button>
-          {showPredictModel && (
-            <Button
-              variant="contained"
-              className="predict-model-button"
-              onClick={handlePredictModel}
-              sx={{ ml: 8 }}  // Add left margin
-            >
-              Predict Performance
-            </Button>
-          )}
+          
           <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", mt: 0 }}>
             <Typography sx={{ fontSize: "18px", fontWeight: "bold" }}>Test Accuracy:</Typography>
             <Typography sx={{ fontSize: "18px", fontWeight: "bold", ml: 1 }}>
               {loading ? <CircularProgress size={24} /> : testPerformance || "No results yet"}
             </Typography>
           </Box>
+
+          {showPredictModel && (
+            <Button
+              variant="contained"
+              className="predict-model-button"
+              onClick={handlePredictModel}
+            >
+              Predict Performance
+            </Button>
+          )}
+
         </Box>
       )}
 
