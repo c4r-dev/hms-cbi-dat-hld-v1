@@ -118,13 +118,31 @@ label {
   margin-bottom: 10px;
 }
 
-/* Min/Max Text for Sliders */
-.sliderMin, .sliderMax {
+.slider-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.sliderMin {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #333;
-  width: 30px;
-  text-align: center;
+  color: #6f00ff;
+  text-align: left;
+  width: 40px;
+}
+
+.sliderMax {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6f00ff;
+  text-align: right;
+  width: 40px;
+}
+
+.MuiSlider-root {
+  flex-grow: 1;
 }
 
 /* Flat Rectangular Cylinder Styling */

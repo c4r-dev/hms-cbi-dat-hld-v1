@@ -283,15 +283,29 @@ export default function Home() {
           <Typography variant="h6" sx={{ whiteSpace: "nowrap" }}>
             Predict how well the model will perform on new data
           </Typography>
-          <Slider
-            value={predictedPerformance}
-            onChange={(event, newValue) => setPredictedPerformance(newValue)}
-            min={0}
-            max={100}
-            step={1}
-            marks={[{ value: 0, label: "0" }, { value: 100, label: "100" }]}
-            sx={{ color: "#6F00FF" }}
-          />
+
+          <Box className="slider-container">
+            <Typography className="sliderMin">0</Typography>
+            <Slider
+              value={predictedPerformance}
+              onChange={(event, newValue) => setPredictedPerformance(newValue)}
+              min={0}
+              max={100}
+              step={1}
+              // marks={[{ value: 0, label: "0" }, { value: 100, label: "100" }]}
+              sx={{
+                flexGrow: 1,
+                '& .MuiSlider-track': {
+                  background: 'linear-gradient(to right, #F031DD, #6F00FF)',
+                },
+                '& .MuiSlider-thumb': {
+                  backgroundColor: '#6F00FF',
+                },
+              }}
+            />
+            <Typography className="sliderMax">100</Typography>
+          </Box>
+
           <Typography sx={{ mt: 0, fontSize: "18px", fontWeight: "bold" }}>
             Your Prediction: {predictedPerformance}%
           </Typography>
