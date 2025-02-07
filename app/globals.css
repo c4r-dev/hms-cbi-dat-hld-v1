@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'General Sans';
   src: url('/fonts/GeneralSans/GeneralSans-Regular.woff2') format('woff2'),
-       url('/fonts/GeneralSans/GeneralSans-Regular.woff') format('woff');
+    url('/fonts/GeneralSans/GeneralSans-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -9,7 +9,7 @@
 @font-face {
   font-family: 'General Sans';
   src: url('/fonts/GeneralSans/GeneralSans-Bold.woff2') format('woff2'),
-       url('/fonts/GeneralSans/GeneralSans-Bold.woff') format('woff');
+    url('/fonts/GeneralSans/GeneralSans-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -17,7 +17,7 @@
 @font-face {
   font-family: 'General Sans';
   src: url('/fonts/GeneralSans/GeneralSans-Italic.woff2') format('woff2'),
-       url('/fonts/GeneralSans/GeneralSans-Italic.woff') format('woff');
+    url('/fonts/GeneralSans/GeneralSans-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
 }
@@ -39,8 +39,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f9f9f9; /* Match the old application's background */
-  line-height: 1.6; /* Improves readability */
+  background-color: #f9f9f9;
+  /* Match the old application's background */
+  line-height: 1.6;
+  /* Improves readability */
 }
 
 /* Header styling - Positioned at the top-left */
@@ -49,15 +51,19 @@ body {
   align-items: center;
   justify-content: left;
   padding: 10px;
-  position: fixed;  /* Change from absolute */
+  position: fixed;
+  /* Change from absolute */
   top: 0;
   left: 0;
   width: 100%;
-  background-color: white; /* Add background to match */
+  background-color: white;
+  /* Add background to match */
   z-index: 1000;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  /* Add subtle shadow */
   padding-bottom: 10px;
-  height: 60px; /* Adjust height if needed */
+  height: 60px;
+  /* Adjust height if needed */
 }
 
 .favicon-button {
@@ -65,10 +71,14 @@ body {
   border: none !important;
   padding: 0 !important;
   box-shadow: none !important;
-  display: flex; /* Ensures flex behavior */
-  align-items: center; /* Vertically centers */
-  justify-content: center; /* Horizontally centers */
-  height: 100%; /* Ensures button takes full height */
+  display: flex;
+  /* Ensures flex behavior */
+  align-items: center;
+  /* Vertically centers */
+  justify-content: center;
+  /* Horizontally centers */
+  height: 100%;
+  /* Ensures button takes full height */
 }
 
 .favicon {
@@ -76,7 +86,8 @@ body {
   height: 40px;
   margin-right: 10px;
   /* transform: rotate(90deg); */
-  display: block; /* Ensures it follows layout properly */
+  display: block;
+  /* Ensures it follows layout properly */
 }
 
 .title-container {
@@ -84,24 +95,28 @@ body {
   max-width: 80%;
 }
 
-h1, .title {
+h1,
+.title {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: left;
   margin-bottom: 10px;
 }
 
-h2, .centeredTitle {
+h2,
+.centeredTitle {
   font-size: 1.2rem;
   font-weight: bold;
-  margin-top: 80px; /* Adjusted for fixed header */
+  margin-top: 80px;
+  /* Adjusted for fixed header */
   padding: 0 10%;
   text-align: center;
 }
 
 /* Change checkbox color when checked */
 input[type="checkbox"]:checked {
-  accent-color: #6F00FF; /* Deep Purple */
+  accent-color: #6F00FF;
+  /* Deep Purple */
 }
 
 /* Styling for the checkbox labels */
@@ -126,19 +141,34 @@ label {
 }
 
 .sliderMin {
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 18px !important;
+  font-weight: bold !important;
   color: #6f00ff;
   text-align: left;
   width: 40px;
 }
 
 .sliderMax {
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 18px !important;
+  font-weight: bold !important;
   color: #6f00ff;
   text-align: right;
   width: 40px;
+}
+
+/* Remove halo/focus ring around the slider thumb */
+.MuiSlider-thumb {
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.MuiSlider-thumb:focus,
+.MuiSlider-thumb:active,
+.MuiSlider-thumb.Mui-focusVisible {
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
 }
 
 .MuiSlider-root {
@@ -177,17 +207,13 @@ label {
 
 /* Purple Gradient for Liquid Fill */
 .training-fill {
-  background: linear-gradient(
-    to top,
-    #ff9800, #ffa726, #ffb74d, #ffcc80, #ffe0b2
-  );
+  background: linear-gradient(to top,
+      #ff9800, #ffa726, #ffb74d, #ffcc80, #ffe0b2);
 }
 
 .testing-fill {
-  background: linear-gradient(
-    to top,
-    #2196f3, #42a5f5, #64b5f6, #90caf9, #bbdefb
-  );
+  background: linear-gradient(to top,
+      #2196f3, #42a5f5, #64b5f6, #90caf9, #bbdefb);
 }
 
 /* Box around subset numbers */
@@ -225,7 +251,8 @@ label {
 }
 
 /* Improved Run Model Button Spacing */
-button, .run-model-button {
+button,
+.run-model-button {
   background-color: #6F00FF !important;
   color: white !important;
   font-size: 16px;
@@ -238,7 +265,7 @@ button, .run-model-button {
 
 /* Hover effect */
 .run-model-button:hover {
-  background-color: #5700CA!important;
+  background-color: #5700CA !important;
 }
 
 .predict-model-button:hover {
@@ -246,17 +273,20 @@ button, .run-model-button {
 }
 
 .run-model-button.light-purple {
-  background-color: #6F00FF !important; /* Light Purple */
+  background-color: #6F00FF !important;
+  /* Light Purple */
   color: white !important;
 }
 
 .run-model-button.light-purple:hover {
-  background-color: #5700CA !important; /* Slightly darker purple */
+  background-color: #5700CA !important;
+  /* Slightly darker purple */
 }
 
 /* Disabled Button */
 .run-model-button:disabled {
-  background-color: #AD9FFF !important; /* Light Purple */
+  background-color: #AD9FFF !important;
+  /* Light Purple */
   color: #FFFFFF !important;
   cursor: not-allowed;
 }

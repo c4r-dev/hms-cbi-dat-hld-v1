@@ -284,7 +284,7 @@ export default function Home() {
             Predict how well the model will perform on new data
           </Typography>
 
-          <Box className="slider-container">
+          <Box className="slider-container" sx={{ mt: 1 }} >
             <Typography className="sliderMin">0</Typography>
             <Slider
               value={predictedPerformance}
