@@ -304,6 +304,23 @@ button,
   margin-top: 40px;
 }
 
+.close-button {
+  background-color: #6F00FF !important;
+  color: white !important;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-transform: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #5700CA !important;
+}
+
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .header {

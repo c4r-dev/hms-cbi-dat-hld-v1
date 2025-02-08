@@ -380,22 +380,13 @@ export default function Home() {
             </AreaChart>
           </ResponsiveContainer>
 
-
           <Button
             onClick={handleClose}
             variant="text"
-            sx={{
-              mt: 2,
-              color: "#6F00FF", // Default color
-              "&:hover": {
-                backgroundColor: "#5700ca", // Light purple hover effect
-                // color: "#5700CA", // Darker purple on hover
-              }
-            }}
+            className="close-button"
           >
             Close
           </Button>
-
 
         </Box>
       </Modal>
