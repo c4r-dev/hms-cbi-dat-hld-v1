@@ -178,7 +178,7 @@ export default function Home() {
         Be sure to select at least one training and one testing subset before building the model.
       </Typography>
 
-      <Box sx={{ display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "start", gap: 8, mt: 3 }}>
+      <Box sx={{ display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "center", gap: 8, mt: 3 }}>
 
         {/* Training Section */}
         <Box className="training-container" sx={{ textAlign: "center" }}>
