@@ -178,58 +178,51 @@ export default function Home() {
         Be sure to select at least one training and one testing subset before building the model.
       </Typography>
 
-      <Box sx={{ display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "center", gap: 8, mt: 3 }}>
+      <Box sx={{ display: "grid", gridTemplateColumns: "1fr auto 1fr", alignItems: "start", gap: 8, mt: 3 }}>
+
+        {/* Training Section */}
         <Box className="training-container" sx={{ textAlign: "center" }}>
-          <Typography mb={1} variant="h6">Training</Typography>
+          <Typography mb={1} variant="h6" sx={{ minHeight: "40px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+            Training
+          </Typography>
           <Box className="tube">
             <Box className="tube-fill training-fill" sx={{ height: calculateFill("training") }} />
           </Box>
         </Box>
 
+        {/* Data Subsets Section */}
         <Box className="dataset-section" sx={{ textAlign: "center" }}>
-          <Typography variant="h6" mb={2}>Data Subsets</Typography>
+          <Typography variant="h6" mb={2} sx={{ minHeight: "40px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+            Data Subsets
+          </Typography>
           {Object.keys(datasets).map((dataset, index) => (
             <Box key={dataset} className="subset-container" sx={{ display: "flex", alignItems: "center", gap: 1 }}>
               <Checkbox
                 checked={datasets[dataset].training}
                 onChange={() => handleChange(dataset, "training")}
                 disabled={hideButtons}
-                sx={{
-                  color: "#E0E0E0", // Default color
-                  "&.Mui-checked": {
-                    color: "#6F00FF", // Checked color
-                  },
-                  "& .MuiSvgIcon-root": {
-                    border: "2px solid black", // Black border around the checkbox when unchecked
-                    // borderRadius: "4px", // Optional: Slightly rounded corners
-                  },
-                }}
+                sx={{ "&.Mui-checked": { color: "#6F00FF" } }}
               />
               <Box className="subset-box">{index + 1}</Box>
               <Checkbox
                 checked={datasets[dataset].testing}
                 onChange={() => handleChange(dataset, "testing")}
                 disabled={hideButtons}
-                sx={{
-                  color: "#E0E0E0", // Default color
-                  "&.Mui-checked": {
-                    color: "#6F00FF", // Checked color
-                  },
-                  "& .MuiSvgIcon-root": {
-                    border: "2px solid black", // Black border around the checkbox when unchecked
-                    // borderRadius: "4px", // Optional: Slightly rounded corners
-                  },
-                }}
+                sx={{ "&.Mui-checked": { color: "#6F00FF" } }}
               />
             </Box>
           ))}
         </Box>
 
+        {/* Testing Section */}
         <Box className="testing-container" sx={{ textAlign: "center" }}>
-          <Typography mb={1} variant="h6">Testing</Typography>
+          <Typography mb={1} variant="h6" sx={{ minHeight: "40px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+            Testing
+          </Typography>
           <Box className="tube">
             <Box className="tube-fill testing-fill" sx={{ height: calculateFill("testing") }} />
           </Box>
+
         </Box>
       </Box>
 
@@ -382,7 +375,7 @@ export default function Home() {
                   dy: -5
                 }}
               />
-              <Area type="monotone" dataKey="frequency" stroke="#8884d8" fill="#8884d8" />
+              <Area type="monotone" dataKey="frequency" stroke="#6f00ff" fill="#6f00ff" />
 
             </AreaChart>
           </ResponsiveContainer>
