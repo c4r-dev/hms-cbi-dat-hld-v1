@@ -3,7 +3,7 @@ import FaviconButton from "./components/FaviconButton";
 
 export const metadata = {
   title: "Data Holdout",
-  description: "A Next.js app for selecting datasets for Training and Testing.",
+  description: "Select the data subsets for training and testing the model.",
 };
 
 export default function RootLayout({ children }) {
