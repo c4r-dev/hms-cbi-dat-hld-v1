@@ -22,6 +22,13 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Apply text-wrap: balance to all elements */
 * {
   text-wrap: balance;
@@ -197,6 +204,13 @@ label {
   align-items: center;
   justify-content: center;
   min-height: 150px; /* Ensure they all have the same height */
+}
+
+/* Apply JetBrains Mono to the specific text */
+.training-container h6,
+.testing-container h6,
+.dataset-section h6 {
+  font-family: 'JetBrains Mono', monospace;
 }
 
 /* Liquid Fill */
