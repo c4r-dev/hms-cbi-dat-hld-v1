@@ -384,10 +384,19 @@ export default function Home() {
           <Button
             onClick={handleClose}
             variant="text"
-            sx={{ mt: 2 }}
+            sx={{
+              mt: 2,
+              color: "#6F00FF", // Default color
+              "&:hover": {
+                backgroundColor: "#E5D4FF", // Light purple hover effect
+                color: "#5700CA", // Darker purple on hover
+              }
+            }}
           >
             Close
           </Button>
+
+
         </Box>
       </Modal>
 
