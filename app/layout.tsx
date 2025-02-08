@@ -2,7 +2,7 @@ import "./globals.css";
 import FaviconButton from "./components/FaviconButton";
 
 export const metadata = {
-  title: "Data Selection App",
+  title: "Data Holdout",
   description: "A Next.js app for selecting datasets for Training and Testing.",
 };
 
