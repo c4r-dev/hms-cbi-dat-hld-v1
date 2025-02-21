@@ -1,5 +1,6 @@
 import "./globals.css";
 import FaviconButton from "./components/FaviconButton";
+import Script from "next/script";
 
 export const metadata = {
   title: "Data Holdout",
@@ -13,6 +14,26 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body>
+
+          {/* Google Analytics Script */}
+          <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-SY36J84WJG"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-SY36J84WJG');
+            `,
+          }}
+        />
+
         {/* Header */}
         <header className="header">
           {/* Using FaviconButton Client Component */}
